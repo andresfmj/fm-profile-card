@@ -1,0 +1,23 @@
+@import '../_shared';
+
+.Header-Background {
+  width: 100%;
+  height: 130px;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.ProfileCard {
+  position: relative;
+  background-color: $white;
+  border-radius: 1.1rem;
+  .ProfileCard-Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.4rem;
+  }
+}

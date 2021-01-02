@@ -1,0 +1,8 @@
+@import '../shared';
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(201, 199, 199, .7);
+  padding: 1.5rem 0.4rem;
+}
