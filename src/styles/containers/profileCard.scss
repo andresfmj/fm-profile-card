@@ -14,10 +14,40 @@
   position: relative;
   background-color: $white;
   border-radius: 1.1rem;
+  box-shadow: -6px 19px 77px -36px rgba(0,0,0,0.69);
   .ProfileCard-Inner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2.4rem;
+    margin-top: 4.2rem;
+    .ProfileImage-Container {
+      z-index: 10;
+    }
+    .Header-Container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1440px 
+*/
+@media (min-width: 1440px) {
+  .Header-Background {
+    height: 150px;
+  }
+
+  .ProfileCard {
+    width: 28%;
+    .ProfileCard-Inner {
+      height: 210px;
+      margin-top: 5.6rem;
+      .Header-Container {
+        margin-top: .5rem;
+      }
+    }
   }
 }
