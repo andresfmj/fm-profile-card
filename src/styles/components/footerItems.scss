@@ -1,0 +1,17 @@
+@import '../shared';
+
+.FooterItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: $primary-text-color;
+    font-size: 1rem;
+  }
+  p {
+    font-weight: $font-weight-thin;
+    color: $accent;
+    font-size: .6rem;
+    line-height: 1.3rem;
+  }
+}
