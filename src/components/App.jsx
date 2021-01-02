@@ -2,11 +2,15 @@ import React from 'react';
 
 import ProfileCard from '../containers/ProfileCard';
 
+import '../styles/containers/app.scss';
+
 
 function App() 
 {
   return (
-    <ProfileCard />
+    <div className="App">
+      <ProfileCard />
+    </div>
   )
 }
 
