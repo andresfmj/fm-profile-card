@@ -5,3 +5,13 @@
   height: 100vh;
   padding: 0 1.2rem;
 }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1440px 
+*/
+@media (min-width: 1440px) {
+  .App {
+    align-items: center;
+  }
+}
