@@ -1,0 +1,19 @@
+@import '../shared';
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1.5rem .7rem 1.5rem;
+  z-index: 10;
+  h2 {
+    margin-top: .9rem;
+    font-size: 1.1rem;
+    color: $primary-text-color;
+    span {
+      font-weight: $font-weight-thin;
+      color: $accent;
+      margin-left: .6rem;
+    }
+  }
+}
