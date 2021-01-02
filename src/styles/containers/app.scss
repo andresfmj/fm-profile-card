@@ -6,6 +6,19 @@
   padding: 0 1.2rem;
 }
 
+.bgTop {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: -700px -600px;
+}
+.bgBottom {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: 90px 440px;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1440px 
@@ -13,5 +26,11 @@
 @media (min-width: 1440px) {
   .App {
     align-items: center;
+  }
+  .bgTop {
+    background-position: -280px -420px;
+  }
+  .bgBottom {
+    background-position: 610px 540px;
   }
 }
